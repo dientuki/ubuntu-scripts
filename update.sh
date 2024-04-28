@@ -26,7 +26,7 @@ apt-get update
 sudo apt-get upgrade -y
 
 # Check if updates were made for snap packages
-if [[ "$snap_output" != *"All snaps are up to date."* ]]; then
+if [[ "$snap_output" != *"All snaps up to date."* ]]; then
     echo -e "${GREEN}Snap updates were made.${ENDCOLOR}"
 else
     echo -e "${YELLOW}No snap updates were made.${ENDCOLOR}"
